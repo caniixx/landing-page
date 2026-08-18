@@ -1,0 +1,1 @@
+This project aims to mime a live-blog about movie recommendations. Contact me for further information: canlukasnohl@yahoo.de.
