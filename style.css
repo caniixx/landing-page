@@ -66,8 +66,7 @@ body {
     margin-bottom: 30px;
 }
 
-.header-logo {
-/*Mouse-Click einfügen, um zu index.html zurückzugelangen*/    
+.header-logo { 
     font-family: "Brush Script MT";
     font-size: 60px;
     text-decoration: none;
@@ -80,7 +79,6 @@ body {
     list-style-type: none;
     text-decoration: none;
     color: inherit;
-/*Hier werden noch Links eingefügt*/
 }
 
 .text-description {
@@ -147,6 +145,8 @@ h2 {
     font-size: 50px;
     font-weight: 900;
     text-align: center;
+    text-transform: full-width;
+    text-shadow: 2px 2px 0 rgb(170, 202, 213);
 }
 
 button {
@@ -165,4 +165,5 @@ button {
 /*Was kann noch gekürzt werden?*/
 
 /*Commit: first edition of sectionthree, sectionfour, sectionfive, changes to nav-bar*/ 
+
 
