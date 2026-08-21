@@ -6,4 +6,3 @@ Foto von <a href="https://unsplash.com/de/@alexandermassph?utm_source=unsplash&u
 Foto von <a href="https://unsplash.com/de/@romandempire?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Roman Denisenko</a> auf <a href="https://unsplash.com/de/fotos/ein-gelbes-licht-das-durch-ein-fenster-in-einem-dunklen-raum-scheint-WWoTtLpR87Y?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 Foto von <a href="https://unsplash.com/de/@vidarnm?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Vidar Nordli-Mathisen</a> auf <a href="https://unsplash.com/de/fotos/ein-kreuzfahrtschiff-im-wasser-an-einem-nebligen-tag-yCjGcm8G2GU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
-<!-- commit: renamed containerone, containertwo to sectionone, sectiontwo; few changes sectionone; first edition sectiontwo; update README w credentials -->

@@ -8,18 +8,52 @@ body {
 
 /*First Section*/
 
-.sectionone, .sectiontwo {
-/*Wie kann ich den Container am Grow verhindern?*/
+.sectionone, .sectiontwo, .sectionthree, .sectionfour, .sectionfive {
     background-color: rgb(22, 22, 104);
     display: flex;
     flex-direction: column;
     padding: 30px;
 }
 
-.sectiontwo {
+.sectiontwo, .sectionfour {
     background-color: white;
     text-align: center;
 }
+
+.sectionthree {
+    justify-content: center;
+    height: 200px;
+    padding: 80px;
+    background-color: rgb(231, 231, 231);
+    color: rgb(83, 83, 83);
+    font-size: 30px;
+    text-align: center;
+}
+
+.sectionfour {
+    padding: 50px;
+}
+
+.sectionthree p {
+    font-size: 20px;
+    text-align: right;
+    color: rgb(31, 31, 31);
+}
+
+.sectionfour .text-description {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sectionfive {
+    text-align: center;
+    
+}
+
+.sectionfive button {
+    margin-left: auto;
+    }
 
 .nav-bar, .description {
     gap: 60px;
@@ -36,17 +70,21 @@ body {
 /*Mouse-Click einfügen, um zu index.html zurückzugelangen*/    
     font-family: "Brush Script MT";
     font-size: 60px;
+    text-decoration: none;
+    color: inherit;
 }
 
 .links {
     display: flex;
     gap: 24px;
     list-style-type: none;
+    text-decoration: none;
+    color: inherit;
 /*Hier werden noch Links eingefügt*/
 }
 
-
 .text-description {
+/*Wie kann ich den Container am Grow verhindern?*/
     background-color: rgb(170, 202, 213);
     border-radius: 12px;
     padding: 40px;
@@ -54,31 +92,6 @@ body {
     flex: 1;
     flex-direction: column;
     align-items: center;
-}
-
-h1 {
-    text-shadow: 1px 1px 0 #000;
-}
-
-/*Für h2 übertriebenen Schatten*/
-h2 {
-    color: rgb(22, 22, 104);
-    font-size: 50px;
-    font-weight: 900;
-    text-align: center;
-}
-
-button {
-/* Space zwischen Button und Margin verringern*/
-    background-color:rgb(170, 202, 213);
-    padding: 14px;
-    border-radius: 12px;
-    border-color: rgb(22, 22, 104);
-    color: white;
-    font-weight: 800;
-    cursor: pointer;
-    margin-bottom: auto;
-    margin-top: auto;
 }
 
 .titlepic {
@@ -119,6 +132,37 @@ button {
   object-fit: cover;
 }
 
+.leftbox {
+    flex-direction: column;
+    text-align: start;
+}
 
+h1 {
+    text-shadow: 1px 1px 0 #000;
+}
 
+/*Für h2 übertriebenen Schatten*/
+h2 {
+    color: rgb(22, 22, 104);
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+}
+
+button {
+/* Space zwischen Button und Margin verringern*/
+    background-color:rgb(170, 202, 213);
+    padding: 14px;
+    border-radius: 12px;
+    border-color: rgb(22, 22, 104);
+    color: white;
+    font-weight: 800;
+    cursor: pointer;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+/*Was kann noch gekürzt werden?*/
+
+/*Commit: first edition of sectionthree, sectionfour, sectionfive, changes to nav-bar*/ 
 
